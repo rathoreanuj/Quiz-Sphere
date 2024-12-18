@@ -1,5 +1,8 @@
 # Quiz Sphere - Interactive Knowledge Testing Platform
 
+## Live Demo
+https://quiz-sphere.onrender.com/
+
 ## Overview
 Quiz Sphere is an engaging web application designed to test users' knowledge across various categories through an interactive quiz format. The application features a clean, intuitive interface with a distinctive lightbulb logo symbolizing knowledge and learning.
 
