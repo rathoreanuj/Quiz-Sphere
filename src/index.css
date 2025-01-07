@@ -18,7 +18,7 @@
 
 body {
  font-family: 'Poppins', sans-serif;
- background-color: var(--color-background);
+ background-color: rgb(247, 240, 227);
  color: var(--color-text);
  line-height: 1.6;
  height: 100vh;
@@ -37,7 +37,6 @@ body {
  height: 100vh;
  margin: 0;
  padding: 1rem;
- background-color: white;
  border-radius: 0;
  box-shadow: 0 10px 30px rgba(255, 140, 0, 0.2);
  display: flex;
@@ -47,6 +46,11 @@ body {
  left: 0;
  overflow-y: auto ;
 }
+
+.progress {
+  margin-bottom: 1.5rem;
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+ }
 
 .main {
  flex: 1;
@@ -76,11 +80,11 @@ h3 {
 }
 
 .spinner {
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-
 }
 
 .start {
@@ -112,8 +116,8 @@ h3 {
 }
 
 .btn {
- background-color: var(--color-primary);
- color: white;
+ background-color: rgb(229, 149, 2);
+ color: rgb(253, 245, 245);
  border: none;
  padding: clamp(0.8rem, 2vw, 1rem) clamp(1.5rem, 3vw, 2.5rem);
  font-size: clamp(1.1rem, 2.5vw, 1.2rem);
@@ -123,6 +127,10 @@ h3 {
  box-shadow: 0 4px 10px rgba(255, 140, 0, 0.3);
  font-weight: 600;
  min-width: clamp(180px, 40vw, 220px);
+}
+
+.btn btn-ui{
+  margin-right: 4rem;
 }
 
 .btn:hover {
@@ -139,7 +147,7 @@ h3 {
 }
 
 .btn-option {
- background-color: white;
+ background-color: rgb(247, 242, 234);
  border: 2px solid var(--color-primary);
  color: var(--color-primary);
  font-size: clamp(1rem, 2.5vw, 1.1rem);
@@ -153,21 +161,21 @@ h3 {
 }
 
 .btn-option:hover {
- background-color: var(--color-primary);
- color: white;
+ background-color: rgb(248, 236, 215);
+ color: var(--color-primary);
  transform: translateY(-2px);
 }
 
 .btn-option.correct {
- background-color: var(--color-correct);
+ background-color: rgb(220, 240, 191);
  border-color: var(--color-correct);
- color: white;
+ color:  var(--color-primary);
 }
 
 .btn-option.wrong {
- background-color: var(--color-wrong);
+ background-color: rgb(249, 175, 175) ;
  border-color: var(--color-wrong);
- color: white;
+ color:  rgb(143, 98, 16);
 }
 
 .progress {
@@ -180,10 +188,11 @@ h3 {
  font-weight: 600;
  color: var(--color-primary);
  margin-bottom: 0.5rem;
+ margin-left: 2rem;
 }
 
 .result {
- background-color: rgb(248, 248, 181);
+ background-color: rgb(243, 243, 212);
  padding: clamp(1.5rem, 4vw, 2rem);
  border-radius: 20px;
  text-align: center;
