@@ -18,7 +18,7 @@
 
 body {
  font-family: 'Poppins', sans-serif;
- background-color: rgb(247, 240, 227);
+ background-color: rgb(255, 255, 255);
  color: var(--color-text);
  line-height: 1.6;
  height: 100vh;
@@ -192,7 +192,7 @@ h3 {
 }
 
 .result {
- background-color: rgb(243, 243, 212);
+ background-color: rgb(247, 247, 232);
  padding: clamp(1.5rem, 4vw, 2rem);
  border-radius: 20px;
  text-align: center;
